@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <div id="endscreen">
+            <h1>Game over</h1>
+            <p>Score : <span id="endscore"></span><br></p1>
+            <p>Best : <span id="bestscore"></span><br></p2>
+            <button id="restart">Restart</button>
+        </div>
+        <div id="startscreen" onload="pre()">
+            <h2>Click Start To Play</h2>
+            <button id="start">Start</button>
+        </div>
+        <div id="rules">
+            <h3>How To Play</h3>
+            <p>
+                1. Press "space bar" to jump.<br>
+                2. Avoid the incoming bamboo.<br>
+                3. Avoid top and bottom bounderies.
+            </p>
+        </div>
+        <div id="Scoresystem">
+            <h4>Score System</h4>
+            <p> Score:1 - 3 = Beginner <br>
+                Score:3 - 6 = Intermediate <br>
+                Score:6 - 12 = Pro<br>
+                Score:12 - 20 = Master<br>
+                Score:20 - 25 = GrandMaster<br>
+                Score:25+ = IMPOSSIBLE
+            </p>
+        </div>
+        <div id="game">
+        <canvas id="game-canvas" height="690px" width="1000px"></canvas>
+        <img id="image" src="bun.png">
+        <img id ="bpimage" src="bamboo.png">
+        <img id ="tpimage" src="bamboo.png">
+        <img id ="bkimage" src="backgrond.jpg">
+        <embed src="musix.mp3" loop="true"  width="2" height="0" id="background">
+        <audio id="hop" controls style="display:none">
+            <source src="jumpsound.mp3" type="audio/mpeg">
+        </audio>
+        <audio id="death" controls style="display:none">
+            <source src="deathsound.mp3" type="audio/mpeg">
+        </audio>
+        </div>
+    <script src="javascript.js"></script>
+    </body>
+</html>

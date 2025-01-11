@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+#game-canvas {
+    border: 2px solid rgb(240, 124, 124);
+    display: block;
+    margin: auto;
+}
+#image{
+    display:none;
+}
+#bpimage {
+    display:none;
+}
+#tpimage {
+    display:none;
+}
+#bkimage {
+    display: none;
+}
+body {
+    background-image: url("https://images6.alphacoders.com/129/1293302.jpg")
+}
+#endscreen {
+    margin: 50 px auto;
+    width: 200px;
+    padding: 20px;
+    background-color: wheat;
+    border-radius: 5px;
+    position: absolute;
+    left: 650px;
+    display: none;
+    text-align: center;
+    z-index: 1000;
+    transform: translateY(115%);
+}
+#startscreen{
+    margin: 50 px auto;
+    width: 200;
+    padding: 20px;
+    background-color: wheat;
+    border-radius: 5px;
+    position: absolute;
+    left: 650px;
+    text-align: center;
+    z-index: 1000;
+    transform: translateY(115%);
+}
+#rules {
+    position: absolute;
+    z-index: 1001;
+}
+#Scoresystem {
+    transform: translateY(60%);
+    position: absolute;
+    font-weight: bold;
+    z-index: 1001;
+}
+h2 { 
+    font-family: 'Press Start 2P', cursive;
+    color: black
+}
+.backdrop-blur{
+    filter: blur(5px);
+}
+h1 {
+    font-family: 'Press Start 2P', cursive;
+    color: rgb(194, 2, 2);
+}
+h3 {
+    font-family: 'Press Start 2P', cursive;
+}
+h4 {
+    font-family: 'Press Start 2P', cursive;
+}
+p {
+    font-family: 'Press Start 2P', cursive
+}
+#restart{
+    padding: 10px;
+    margin: auto;
+    font-family: 'Press Start 2P', cursive;
+    background-color: beige;
+    border-radius: 6px;
+}
+#start {
+    padding: 10px;
+    margin: auto;
+    font-family: 'Press Start 2P', cursive;
+    background-color: beige;
+    border-radius: 6px;
+}
